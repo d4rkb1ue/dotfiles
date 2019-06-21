@@ -1,0 +1,4 @@
+- Base on ubuntu 16.04
+- Files like `.bashrc`
+- Linux softwares install
+- Trouble shooting ubuntu daily usage
