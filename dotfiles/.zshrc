@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/sheng.su/.oh-my-zsh"
+export GOPATH=$HOME/go
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -71,7 +72,7 @@ ZSH_THEME="agnoster"
 plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
-
+source $HOME/.profile
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
