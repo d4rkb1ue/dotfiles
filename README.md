@@ -9,6 +9,6 @@ mv ~/dotfiles/.gitconfig $HOME/
 mv ~/dotfiles/.tmux.conf $HOME/
 # tmux c-b :source-file ~/.tmux.conf
 
-mv /Users/shensu/.vimrc $HOME/
+mv ~/dotfiles/.vimrc $HOME/
 # vi :source ~/.vimrc
 ```
