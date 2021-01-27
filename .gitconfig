@@ -1,0 +1,10 @@
+[alias]
+	ck = checkout
+	s = status
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[user]
+	name = d4rkb1ue
+	email = 7874364@gmail.com
