@@ -1,5 +1,13 @@
 #!/bin/bash
 
+while getopts u:a:f: flag
+do
+    case "${flag}" in
+        f) 
+        force=${OPTARG};;
+    esac
+done
+
 REALPATH=$0
 if [[ ${REALPATH:0:1} != '/' ]]; then
     REALPATH=$(realpath $REALPATH)
@@ -13,7 +21,7 @@ LIST=(
 )
 
 for F in "${LIST[@]}"; do
-    if [[  ! -e $HOME/$F ]]; then
+    if [[ $force = 1 ||  ! -e $HOME/$F ]]; then
         echo $F
         cp $DIR/$F $HOME/
     fi
