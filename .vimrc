@@ -31,3 +31,4 @@ set formatoptions+=j            " Delete comment character when joining commente
 set autoread                    " Automatically re-read files if unmodified inside Vim.
 set history=1000                " Increase the undo limit.
 set tabpagemax=50               " Maximum number of tab pages that can be opened from the command line.
+set paste
