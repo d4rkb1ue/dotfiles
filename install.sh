@@ -26,3 +26,5 @@ for F in "${LIST[@]}"; do
         cp $DIR/$F $HOME/
     fi
 done
+
+cat $DIR/.zshrc >> ~/.zshrc
